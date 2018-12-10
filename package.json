@@ -1,0 +1,56 @@
+{
+  "name": "react-micro-services",
+  "version": "0.1.0",
+  "description": "react-micro-services for a page hit counter.",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "micro",
+    "dev": "micro-dev",
+    "build": "npm run-script && cross-env NODE_ENV=production webpack -p --env=prod --progress --profile --colors"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/donaldbulton/react-micro-services.git"
+  },
+  "keywords": [
+    "React",
+    "Micro Services"
+  ],
+  "author": "Donald Boulton",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/donaldbulton/react-micro-services/issues"
+  },
+  "homepage": "https://github.com/donaldbulton/raect-micro-services/#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "babel-loader": "^7.1.5",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-plugin-transform-object-assign": "^6.22.0",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-plugin-transform-react-jsx": "^6.24.1",
+    "babel-polyfill": "^6.16.0",
+    "bfj": "^6.1.1",
+    "eslint": "^5.5.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-loader": "^2.1.1",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jsx-a11y": "^6.1.2",
+    "eslint-plugin-react": "^7.11.1",
+    "micro-dev": "^3.0.0",
+    "webpack": "^3.12.0",
+    "webpack-bundle-analyzer": "^2.13.1",
+    "webpack-merge": "^4.1.4"
+  },
+  "dependencies": {
+    "level": "^4.0.0",
+    "micro": "^9.3.3",
+    "react": "^16.6.3",
+    "react-dom": "^16.6.3",
+    "then-levelup": "^1.0.2"
+  }
+}
